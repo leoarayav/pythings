@@ -28,5 +28,5 @@ c.text_to_binary("foo")
 # Output:
 # 01100110 01101111 01101111
 ```
-
 ### License
+MIT License - [Read full LICENSE](./LICENSE)
