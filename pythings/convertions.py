@@ -66,5 +66,3 @@ class Convertions:
             hex: Hexadecimal convertion.
         '''
         return print(format(number, 'x'))
-
-Convertions().text_to_binary("foo")
