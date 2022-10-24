@@ -1,8 +1,5 @@
 '''This module contains all convertions of py@things'''
 
-from matplotlib.pyplot import text
-
-
 class Convertions:
     '''Class Convertions, this includes simple and advanced convertions.'''
 
