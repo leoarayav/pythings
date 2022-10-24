@@ -3,7 +3,7 @@
 PYTHINGS = {
     "package_name": "pythings",
     "description": "A zero-depedencies and most-used python resources.",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "date": "23-10-2022",
     "author": {
         "name": "leoarayav",
