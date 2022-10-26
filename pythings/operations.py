@@ -88,4 +88,4 @@ class Operations:
         Returns:
             int: Our power result.
         '''
-        return a ** b | pow(a, b)
+        return print(a ** b | pow(a, b))
