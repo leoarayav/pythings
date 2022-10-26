@@ -8,7 +8,7 @@ A zero-depedencies and most-used python resources.
 ### Features
 - Operations
 - Web scrapping
-- Management
+- Convertions
 
 ### Usage
 1. Use PyPi to install _pythings_ in your computer.
@@ -17,7 +17,7 @@ A zero-depedencies and most-used python resources.
 
 ### Writing our first program with _pythings_
 ```python
-from pythings import Convertions
+from pythings.convertions import Convertions
 
 # Lets create an object
 c = Convertions()
