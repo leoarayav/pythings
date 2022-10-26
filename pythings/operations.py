@@ -49,7 +49,7 @@ class Operations:
         print(v)
     
     @staticmethod
-    def divide(a: int, b: int) -> int:
+    def divide(a: int, b: int) -> float:
         '''
         This method allows you to divide two numbers.
 
@@ -58,7 +58,7 @@ class Operations:
             b (int): Your second number.
         
         Returns:
-            int: Our divition result.
+            float: Our divition result.
         '''
         return a / b
     
