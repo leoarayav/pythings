@@ -7,6 +7,15 @@ class Scrapping:
     
     @staticmethod
     def get_web_text(url: str) -> str:
+        '''
+        This method obtains web text
+
+        Args:
+            url (str): Website URL
+        
+        Returns:
+            str: Website text.
+        '''
         if url is None:
             pass
         else:
@@ -14,6 +23,15 @@ class Scrapping:
     
     @staticmethod
     def get_web_headers(url: str) -> str:
+        '''
+        This method obtains web headers.
+
+        Args:
+            url (str): Website URL
+        
+        Returns:
+            str: Website headers.
+        '''
         if url is None:
             pass
         else:
@@ -21,6 +39,15 @@ class Scrapping:
     
     @staticmethod
     def get_web_cookies(url: str) -> str:
+        '''
+        This method obtains web text
+
+        Args:
+            url (str): Website URL
+        
+        Returns:
+            str: Website cookies.
+        '''
         if url is None:
             pass
         else:
@@ -28,6 +55,15 @@ class Scrapping:
 
     @staticmethod
     def web_excistence(url: str) -> str:
+        '''
+        This method obtains web excistence.
+
+        Args:
+            url (str): Website URL
+        
+        Returns:
+            str: Website excistence message.
+        '''
         if rq.get(url).status_code == 404:
             return print("PYTHINGS: This website doesnt exists.")
         else:
@@ -35,6 +71,15 @@ class Scrapping:
     
     @staticmethod
     def get_web_content(url: str) -> bytes:
+        '''
+        This method obtains web content.
+
+        Args:
+            url (str): Website URL
+        
+        Returns:
+            str: Website content.
+        '''
         if url is None:
             pass
         else:
